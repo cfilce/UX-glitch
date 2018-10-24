@@ -20,6 +20,6 @@
     "sync-glitch-cli": "^2.0.1"
   },
   "optionalDependencies": {
-    "api-keys": "git+ssh://git@github.com/jhburns/api-keys.git"
+    "api-keys": "git+ssh://git@github.com/cfilce/api-keys.git"
   }
 }
