@@ -7,18 +7,14 @@
   "author": "Jonathan Burns",
   "license": "MIT",
   "dependencies": {
-    "colors": "^1.3.2",
     "dotenv": "^6.0.0",
-    "express": "^4.16.3"
+    "express": "^4.16.4",
   },
   "scripts": {
     "start": "node index.js",
     "sync": "node glitch-sync.js",
     "update": "git push && npm run sync"
-  },
-  "devDependencies": {
-    "sync-glitch-cli": "^2.0.1"
-  },
+  }
   "optionalDependencies": {
     "api-keys": "git+ssh://git@github.com/cfilce/api-keys.git"
   }
